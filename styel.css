@@ -1,0 +1,156 @@
+/****class forclock heading section **/
+
+.clockHeading{
+	width: 100%;
+    height: 152px;
+    border: 1px solid gold;
+    margin-top: 40px;
+    background: brown;
+	color: antiquewhite;
+	font-size: xx-large;
+	text-align: center;
+}
+/****class for main section **/
+.main_div{
+	height: 100vh;
+	width: 100vw;
+	background-color: #d2eeba;
+
+}
+/****class for main alarm div **/
+.main_alarm_div{
+	height: auto;
+	width: 400px;
+	border: 1px solid black;
+	border-radius: 25px;
+	position: relative;
+	left: 30%;
+	top: 20%;
+}
+/****common margin class **/
+.marginsClass{
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-bottom: 5px;
+}
+/****class for current time section **/
+.currentTime{
+	height: 100px;
+	width: 80%;
+	border: 1px solid green;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 24px;
+	transition: 0.3s;
+	background-color: blueviolet;
+
+}
+.currentTime:hover{
+	transform: scale(1.2);
+	
+}
+/****class for hours minute and seconds section **/
+.hhmmss{
+	height: 57px;
+    width: 47px;
+    font-size: xxx-large;
+    animation: ChangeTextcolors 8s infinite ease-in-out alternate;
+}
+/****animation for current time section **/
+@keyframes ChangeTextcolors{
+	0%{
+		color: blue;
+	}
+	25%{
+		color: green;
+	}
+	50%{
+		color: pink;
+	}
+	75%{
+		color: cyan;
+	}
+	100%{
+		color: purple;
+	}
+}
+/****class for stylyeing :: in time section *******/
+.uppdot{
+	margin-top: 36px;
+	font-size: xxx-large;
+}
+/**** styling for set alarm section **/
+#setlarm{
+	margin-left: 44px;
+    border-radius: 5px;
+    height: 31px;
+    background-color: darkgoldenrod;
+	transition: transform 0.3s;
+
+}
+
+#setlarm:hover{
+transform: scale(1.2);
+box-shadow: 0px 0px 5px 2px rgb(58, 26, 26) ; 
+}
+.set_alarm{
+	font-size: x-large;
+}
+/****class for alarm select **/
+.Alarm_Select{
+	font-size:large;
+    color: purple;
+	transition: 0.3s;
+}
+
+.Alarm_Select:hover{
+	transform: scale(1.2);
+	box-shadow: 0px 0px 5px 2px rgb(58, 26, 26) ; 
+
+}
+/****class for setting up new alarm section **/
+.newAlarmssection{
+	width: 100%;
+	height: auto;
+	margin-top: 15px;
+	
+}
+/****class for styling for button and new alarm which come after setting up alarm **/
+.newAlarmsAndDeleteButton{
+	height: 51px;
+	width: 100%;
+	border: 1px solid green;
+	margin-top: 7px;
+	display: flex;
+	border-radius: 40px;
+	justify-content: space-evenly;
+	transition: 0.3s;
+	background-color: black;
+}
+.newAlarmsAndDeleteButton:hover{
+transform: scale(1.1);
+box-shadow: 0px 0px 5px 2px blue;
+
+
+
+}
+/****Styling button height **/
+.buttonheight{
+    margin-top: 11px;
+    border-radius: 5px;
+    height: 31px;
+    background-color: darkgoldenrod;
+	transition: 0.3s;
+}
+.buttonheight:hover{
+	transform: scale(1.2);
+	box-shadow: 0px 0px 5px 2px white ;
+}
+.newParaTahclass{
+	font-size: larger;
+    color: brown;
+}
+/*.newAlarmsAndDeleteButton button{
+	height: 50px;
+}*/
