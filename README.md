@@ -6,6 +6,7 @@ It is simple Alarm clock based on html css and vanilla javascript
 - [Overview](#overview)
   - [Screenshot](#screenshot)
 - [My process](#my-process)
+- [link](#link)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
@@ -17,26 +18,22 @@ It is simple Alarm clock based on html css and vanilla javascript
 simple Alarm clock application using Html css and javascript.
 ### Screenshot
 
-![](images/image1.png)
-![](images/Screenshot.png)
+![](Screenshot (13).png)
 
 ## My process
+This application is based on html css and javascript to implement DOM concepts of javascript. 
+## link 
+[Live Website](https://singhmp968.github.io/AlarmColckFinal.github.io/)
 
-ToDo application is based on NodeJs and express as server side technology, MongoDb for Data-Base,and ejs fro front-end.  
 ### Built with
 
 - HTML
 - CSS
 - JavaScript
-- AJAX
-- NodeJs
-- express
-- MongoDB
-- ejs
 ### Useful resources
 
-- [MongoDb](https://mongoosejs.com/)
-- [expressJs](https://expressjs.com/)
+- [W3 school](https://www.w3schools.com/)
+- [MDN web doc](https://developer.mozilla.org/en-US/)
 
 ## Author
 
