@@ -8,7 +8,6 @@ It is simple Alarm clock based on html css and vanilla javascript
 - [My process](#my-process)
 - [link](#link)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
@@ -18,7 +17,7 @@ It is simple Alarm clock based on html css and vanilla javascript
 simple Alarm clock application using Html css and javascript.
 ### Screenshot
 
-![](Screenshot (13).png)
+![](https://github.com/singhmp968/AlarmColckFinal.github.io/blob/master/Screenshot%20(13).png)
 
 ## My process
 This application is based on html css and javascript to implement DOM concepts of javascript. 
